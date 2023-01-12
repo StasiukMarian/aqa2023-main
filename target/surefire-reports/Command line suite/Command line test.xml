@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="DESKTOP-QAV1NRQ" failures="0" tests="2" name="testPackage.FirstTest" time="0.025" errors="0" timestamp="9 Jan 2023 17:51:21 GMT">
+  <testcase classname="testPackage.FirstTest" name="test" time="0.013"/>
+  <testcase classname="testPackage.SecondTest" name="test2" time="0.0"/>
+</testsuite>
