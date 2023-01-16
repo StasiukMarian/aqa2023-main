@@ -17,9 +17,11 @@ public class BaseTest {
     }
     @BeforeMethod(alwaysRun = true, description = "Opening base URL")
     public void setUp(){
-        Selenide.open("https://www.google.com");
+        Selenide.open("https://ps.uci.edu/~franklin/doc/file_upload.html");
     }
-
+//    https://www.saucedemo.com/ - TEST WEB-SITE
+// https://www.stats.govt.nz/large-datasets/csv-files-for-download/ - URL TO DOWNLOAD FILE
+//    https://ps.uci.edu/~franklin/doc/file_upload.html - URL TO UPLOAD FILE
     @AfterMethod(alwaysRun = true, description = "Web Driver cleanup")
     public void cleanWebDriver(){
         Selenide.clearBrowserCookies();
