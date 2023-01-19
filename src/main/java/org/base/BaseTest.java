@@ -17,7 +17,7 @@ public class BaseTest {
     }
     @BeforeMethod(alwaysRun = true, description = "Opening base URL")
     public void setUp(){
-        Selenide.open("https://ps.uci.edu/~franklin/doc/file_upload.html");
+        Selenide.open("https://www.saucedemo.com/");
     }
 //    https://www.saucedemo.com/ - TEST WEB-SITE
 // https://www.stats.govt.nz/large-datasets/csv-files-for-download/ - URL TO DOWNLOAD FILE

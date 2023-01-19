@@ -1,16 +1,12 @@
-package testPackage;
+package testPackage.lesson3workwithelements;
 
-import com.codeborne.selenide.*;
-import com.codeborne.selenide.Configuration;
-import org.apache.commons.io.FileUtils;
+import com.codeborne.selenide.Condition;
 import org.base.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
