@@ -2,7 +2,8 @@ package org.base;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.testng.annotations.*;
-public class BaseTest {
+
+public class BaseTest extends CustomLogger{
 
     @BeforeClass(alwaysRun = true, description = "Creating configs for our tests")
     public void configuration(){

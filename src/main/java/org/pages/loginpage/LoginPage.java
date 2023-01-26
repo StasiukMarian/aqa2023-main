@@ -1,19 +1,23 @@
 package org.pages.loginpage;
 
 import com.codeborne.selenide.Condition;
+import org.base.PageTools;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginPage {
+public class LoginPage extends PageTools {
+    private final By enterBtn = By.xpath("//input[@name='login-button']");
+    private final By typeLogin = By.xpath("//input[@placeholder='Username']");
+    private final By typePassword = By.xpath("//input[@placeholder='Password']");
 
     public void typeLoginInput(String login){
-        $(By.xpath("//input[@placeholder='Username']")).shouldBe(Condition.visible).append(login);
+        type(login , typeLogin);
     }
     public void typePasswordInput(String password){
-        $(By.xpath("//input[@placeholder='Password']")).shouldBe(Condition.visible).append(password);
+        type(password , typePassword);
     }
     public void clickEnterButton(){
-        $(By.xpath("//input[@type='submit']")).shouldBe(Condition.enabled).click();
+       click(enterBtn);
     }
 }
