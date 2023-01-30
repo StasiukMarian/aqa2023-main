@@ -3,6 +3,7 @@ package org.pages;
 import org.pages.burgermenupage.BurgerMenuPage;
 import org.pages.dropdownfiltermenupage.DropDownFilterMenuPage;
 import org.pages.footernavigationpage.FooterNavigationPage;
+import org.pages.item.ItemDetails;
 import org.pages.loginpage.LoginPage;
 import org.pages.mainpage.MainPage;
 import org.pages.shoppingcardpage.ShoppingCardPage;
@@ -14,6 +15,7 @@ public class Pages {
     private static DropDownFilterMenuPage dropDownFilterMenuPage;
     private static FooterNavigationPage footerNavigationPage;
     private static ShoppingCardPage shoppingCardPage;
+    private static ItemDetails itemDetails;
 
     public static LoginPage loginPage(){
         if (loginPage == null){
@@ -51,5 +53,11 @@ public class Pages {
             shoppingCardPage = new ShoppingCardPage();
         }
         return shoppingCardPage;
+    }
+    public static ItemDetails itemDetails() {
+        if (itemDetails == null) {
+            itemDetails = new ItemDetails();
+        }
+        return itemDetails;
     }
 }

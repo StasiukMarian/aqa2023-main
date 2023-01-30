@@ -36,7 +36,7 @@ public class PageObjectPatternTest extends BaseTest {
         Pages.loginPage().clickEnterButton();
 
         $(By.xpath("(//button[text()='Add to cart'])[1]")).shouldBe(Condition.enabled).click();
-        Pages.mainPage().clickShoppingCardButton();
+//        Pages.mainPage().clickShoppingCardButton();
         Assert.assertTrue(Pages.shoppingCardPage().getShoppingCardItems().size() > 0);
 //        Pages.mainPage().clickDropDownFilterMenu();
 //        Pages.dropDownFilterMenuPage().selectFilterItemFromHighToLow();
