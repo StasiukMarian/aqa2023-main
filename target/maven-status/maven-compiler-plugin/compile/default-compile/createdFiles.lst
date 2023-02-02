@@ -1,1 +1,16 @@
-org\example\Main.class
+org\pages\mainpage\MainPage.class
+org\pages\dropdownfiltermenupage\DropDownFilterMenuPage.class
+org\pages\item\Item.class
+org\pages\burgermenupage\BurgerMenuPage.class
+org\pages\footernavigationpage\FooterNavigationPage.class
+org\base\CustomLogger$LogType.class
+org\base\BaseTest.class
+org\base\CustomLogger.class
+org\base\CustomLogger$1.class
+org\pages\AmazonPage.class
+org\base\PageTools.class
+org\pages\item\ItemDetails.class
+org\pages\Pages.class
+org\pages\shoppingcardpage\ShoppingCardPage.class
+org\base\LocatorParser.class
+org\pages\loginpage\LoginPage.class

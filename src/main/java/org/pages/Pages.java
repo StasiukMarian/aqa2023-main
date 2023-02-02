@@ -16,6 +16,7 @@ public class Pages {
     private static FooterNavigationPage footerNavigationPage;
     private static ShoppingCardPage shoppingCardPage;
     private static ItemDetails itemDetails;
+    private static AmazonPage amazonPage;
 
     public static LoginPage loginPage(){
         if (loginPage == null){
@@ -59,5 +60,11 @@ public class Pages {
             itemDetails = new ItemDetails();
         }
         return itemDetails;
+    }
+    public static AmazonPage amazonPage(){
+        if (amazonPage == null){
+            amazonPage = new AmazonPage();
+        }
+        return amazonPage;
     }
 }

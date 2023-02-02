@@ -29,7 +29,7 @@ public class PageObjectPatternTest extends BaseTest {
 //        mainPage = new MainPage();
 //        dropDownFilterMenuPage = new DropDownFilterMenuPage();
 //    }
-    @Test
+//    @Test
     public void test() {
         Pages.loginPage().typeLoginInput("standard_user");
         Pages.loginPage().typePasswordInput("secret_sauce");

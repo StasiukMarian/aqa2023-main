@@ -1,2 +1,6 @@
-testPackage\SecondTest.class
-testPackage\FirstTest.class
+testPackage\lesson8mainpageandbintest\VerifyUserCanAddItemsToBinTest.class
+testPackage\lesson3workwithelements\FirstTest.class
+testPackage\lesson7detailitemtest\VerifyDetailItemCorrespondingItemInMainPageTest.class
+testPackage\lesson4waitconditionsassert\WaitTest.class
+testPackage\lesson5pagepbjectpattern\PageObjectPatternTest.class
+testPackage\lesson6pagetoolslogs\PageToolsLogsTest.class

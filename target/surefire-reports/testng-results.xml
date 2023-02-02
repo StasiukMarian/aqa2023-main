@@ -1,19 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-09T19:51:21Z" name="Command line suite" finished-at="2023-01-09T19:51:21Z" duration-ms="25">
+  <suite started-at="2023-02-02T18:25:36Z" name="Surefire suite" finished-at="2023-02-02T18:26:03Z" duration-ms="27098">
     <groups>
     </groups>
-    <test started-at="2023-01-09T19:51:21Z" name="Command line test" finished-at="2023-01-09T19:51:21Z" duration-ms="25">
-      <class name="testPackage.FirstTest">
-        <test-method signature="test()" started-at="2023-01-09T19:51:21Z" name="test" finished-at="2023-01-09T19:51:21Z" duration-ms="13" status="PASS">
-        </test-method>
-      </class>
-      <class name="testPackage.SecondTest">
-        <test-method signature="test2()" started-at="2023-01-09T19:51:21Z" name="test2" finished-at="2023-01-09T19:51:21Z" duration-ms="0" status="PASS">
-        </test-method>
-      </class>
-    </test>
-  </suite>
+    <test started-at="2023-02-02T18:25:36Z" name="Surefire test" finished-at="2023-02-02T18:26:03Z" duration-ms="27098">
+      <class name="testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest@3c35c345]" started-at="2023-02-02T18:25:54Z" name="configuration" description="Creating configs for our tests" finished-at="2023-02-02T18:25:54Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest@3c35c345]" started-at="2023-02-02T18:25:54Z" name="setUp" description="Opening base URL" finished-at="2023-02-02T18:25:55Z" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest@3c35c345]" started-at="2023-02-02T18:25:55Z" name="test" finished-at="2023-02-02T18:26:03Z" duration-ms="7881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="cleanWebDriver()[pri:0, instance:testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest@3c35c345]" started-at="2023-02-02T18:26:03Z" name="cleanWebDriver" description="Web Driver cleanup" finished-at="2023-02-02T18:26:03Z" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanWebDriver -->
+      </class> <!-- testPackage.lesson8mainpageandbintest.VerifyUserCanAddItemsToBinTest -->
+      <class name="testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest@173797f0]" started-at="2023-02-02T18:25:36Z" name="configuration" description="Creating configs for our tests" finished-at="2023-02-02T18:25:36Z" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest@173797f0]" started-at="2023-02-02T18:25:36Z" name="setUp" description="Opening base URL" finished-at="2023-02-02T18:25:45Z" duration-ms="8474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test()[pri:0, instance:testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest@173797f0]" started-at="2023-02-02T18:25:45Z" name="test" finished-at="2023-02-02T18:25:53Z" duration-ms="7897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="cleanWebDriver()[pri:0, instance:testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest@173797f0]" started-at="2023-02-02T18:25:53Z" name="cleanWebDriver" description="Web Driver cleanup" finished-at="2023-02-02T18:25:54Z" duration-ms="1039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanWebDriver -->
+      </class> <!-- testPackage.lesson7detailitemtest.VerifyDetailItemCorrespondingItemInMainPageTest -->
+      <class name="testPackage.lesson3workwithelements.FirstTest">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testPackage.lesson3workwithelements.FirstTest@33d53216]" started-at="2023-02-02T18:26:03Z" name="tearDown" description="Closing Web Browser" finished-at="2023-02-02T18:26:03Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testPackage.lesson3workwithelements.FirstTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

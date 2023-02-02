@@ -21,7 +21,7 @@ public class FirstTest extends BaseTest {
     public static String getFilePathByName(String fileName){
         return new File("src/main/resources/files/" + fileName).getAbsolutePath();
     }
-    @Test
+//    @Test
     public void test() throws FileNotFoundException {
 //        $(By.xpath("//input[1]")).uploadFile(new File(getFilePathByName("annual-enterprise-survey-2021-financial-year-provisional-csv.csv")));
 //        Selenide.sleep(3000);

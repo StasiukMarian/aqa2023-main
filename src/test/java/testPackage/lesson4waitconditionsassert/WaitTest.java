@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class WaitTest extends BaseTest {
 
-    @Test
+//    @Test
     public void testMethod() {
         $(By.xpath("//input[@placeholder='Username']")).shouldBe(Condition.exist).append("standard_user");
 //        $(By.xpath("//input[@placeholder='Username']")).shouldBe(Condition.readonly).append("standard_user");

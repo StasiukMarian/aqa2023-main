@@ -1,6 +1,6 @@
 package org.base;
 
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
