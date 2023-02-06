@@ -1,38 +1,25 @@
-20:25:37 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
-20:25:37 | INFO | FileHelper:56                            | Creating folder: C:\Users\Dev\IdeaProjects\aqa2023\build\downloads\1675362337049_7684_1
-20:25:38 | INFO | WebDriverManager:966                     | Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
-20:25:38 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\Dev\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
-20:25:43 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
-20:25:43 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
-20:25:43 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=109.0.5414.120 Platform=WINDOWS
-20:25:43 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
-20:25:43 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
-20:25:43 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (5221184e2837ac5c08f0a9629a2c9aa3)
-20:25:43 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (5221184e2837ac5c08f0a9629a2c9aa3), null
-20:25:46 | INFO | LoginPage:23                             | Type login input standard_user ', element -> By.xpath: //input[@placeholder='Username']
-20:25:48 | INFO | LoginPage:23                             | Type password input secret_sauce ', element -> By.xpath: //input[@placeholder='Password']
-20:25:48 | INFO | LoginPage:23                             | Click enter button ', element -> By.xpath: //input[@name='login-button']
-20:25:50 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
-20:25:50 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
-20:25:51 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[@class='inventory_item_desc']
-20:25:51 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[@class='inventory_item_price']
-20:25:51 | INFO | MainPage:23                              | Get elements from main page elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
-20:25:53 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: //div[contains(@class, 'inventory_details_name')]
-20:25:53 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: (//div[contains(@class, 'inventory_details_desc')])[2]
-20:25:53 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: //div[contains(@class, 'inventory_details_price')]
-20:25:55 | INFO | LoginPage:23                             | Type login input standard_user ', element -> By.xpath: //input[@placeholder='Username']
-20:25:55 | INFO | LoginPage:23                             | Type password input secret_sauce ', element -> By.xpath: //input[@placeholder='Password']
-20:25:56 | INFO | LoginPage:23                             | Click enter button ', element -> By.xpath: //input[@name='login-button']
-20:25:59 | INFO | MainPage:23                              | Get elements names from main page elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
-20:25:59 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:25:59 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:00 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:00 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:01 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:01 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:01 | INFO | MainPage:23                              | Get add to cart list elements --> By.xpath: //button[text()='Add to cart']
-20:26:01 | INFO | MainPage:23                              | Click shopping cart btn ', element -> By.xpath: //a[@class='shopping_cart_link']
-20:26:02 | INFO | ShoppingCardPage:23                      | Get shopping cart elements names elements --> By.xpath: //div[@class='inventory_item_name']
-20:26:03 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (5221184e2837ac5c08f0a9629a2c9aa3), null
-20:26:04 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 25 -> ChromeDriver: chrome on WINDOWS (5221184e2837ac5c08f0a9629a2c9aa3), null
-20:26:04 | INFO | FileHelper:81                            | Deleted empty folder: C:\Users\Dev\IdeaProjects\aqa2023\build\downloads\1675362337049_7684_1
+19:56:20 | INFO | WebDriverThreadLocalContainer:138        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+19:56:20 | INFO | FileHelper:56                            | Creating folder: C:\Users\Dev\IdeaProjects\aqa2023\build\downloads\1675706180526_11052_1
+19:56:22 | INFO | WebDriverManager:966                     | Using chromedriver 109.0.5414.74 (resolved driver for Chrome 109)
+19:56:22 | INFO | WebDriverManager:1021                    | Exporting webdriver.chrome.driver as C:\Users\Dev\.cache\selenium\chromedriver\win32\109.0.5414.74\chromedriver.exe
+19:56:27 | INFO | HttpClientTimeouts:81                    | Changed connectTimeout from 120000 to 60000
+19:56:27 | INFO | HttpClientTimeouts:82                    | Changed readTimeout from 10800000 to 120000
+19:56:28 | INFO | WebDriverFactory:138                     | BrowserName=chrome Version=109.0.5414.120 Platform=WINDOWS
+19:56:28 | INFO | WebDriverFactory:79                      | Selenide v. 5.25.1
+19:56:28 | INFO | WebDriverFactory:132                     | Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+19:56:28 | INFO | CreateDriverCommand:71                   | Create webdriver in current thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (d1d46ccf8dfb93e10c02b70dfcafd20c)
+19:56:28 | INFO | WebDriverThreadLocalContainer:163        | Browser and proxy will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on WINDOWS (d1d46ccf8dfb93e10c02b70dfcafd20c), null
+19:56:30 | INFO | LoginPage:23                             | Type login input standard_user ', element -> By.xpath: //input[@placeholder='Username']
+19:56:32 | INFO | LoginPage:23                             | Type password input secret_sauce ', element -> By.xpath: //input[@placeholder='Password']
+19:56:33 | INFO | LoginPage:23                             | Click enter button ', element -> By.xpath: //input[@name='login-button']
+19:56:35 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
+19:56:35 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
+19:56:36 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[@class='inventory_item_desc']
+19:56:36 | INFO | MainPage:23                              | Get items elements --> By.xpath: //div[@class='inventory_item_price']
+19:56:36 | INFO | MainPage:23                              | Get elements from main page elements --> By.xpath: //div[contains(@class, 'inventory_item_name')]
+19:56:38 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: //div[contains(@class, 'inventory_details_name')]
+19:56:38 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: (//div[contains(@class, 'inventory_details_desc')])[2]
+19:56:38 | INFO | ItemDetails:23                           | Get detail item element --> By.xpath: //div[contains(@class, 'inventory_details_price')]
+19:56:39 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 1 -> ChromeDriver: chrome on WINDOWS (d1d46ccf8dfb93e10c02b70dfcafd20c), null
+19:56:39 | INFO | FileHelper:81                            | Deleted empty folder: C:\Users\Dev\IdeaProjects\aqa2023\build\downloads\1675706180526_11052_1
+19:56:39 | INFO | CloseDriverCommand:24                    | Hold browser and proxy open: 27 -> ChromeDriver: chrome on WINDOWS (d1d46ccf8dfb93e10c02b70dfcafd20c), null
